@@ -1,1 +1,1 @@
-https://Madnetbar.github.io/rsschool-cv/cv
+https://Madnetbar.github.io/rsschool-cv
