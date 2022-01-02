@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/style.css">
+	<title>my cv</title>
 </head>
 <body>
-
-</body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="conteiner">
+				<ul class="menu">
+					<li class="menu__item"><a href="#about" class="menu__link">About</a> </li>
+				  <li class="menu__item"><a href="#code" class="menu__link">Code</a> </li>
+				  <li class="menu__item"><a href="#projects" class="menu__link">Projects</a> </li>
+				  <li class="menu__item"><a href="#skills" class="menu__link">Skills</a> </li>
+				  <li class="menu__item"><a href="#contacts" class="menu__link">Contacts</a></li>
+				</ul>
+			</div>
+		</header>
+		<main class="main">
+			<div class="conteiner">
+				<div class="name">
+					<div class="imange"><img src="/img/avatar.png" alt="foto"></div>
+					<div class="name__about">
+						<h1 class="name__about1">Alexe Yakhtenfeld</h1>
+						<br />
+						<h2 class="name__about2">future devoloper</h2>
+					</div>
+				</div>
+			</div>
+		</main>
+		<about class="myskills">
+			<div class="conteiner">
+				<div class="about__row">
+					<div class="about__left">
+						<ul class="educ">Education
+							<li>DON STATE TECHNICAL UNIVERSITY<br/>Engineer for the repair and operation of machines</li>
+						</ul>
+						<ul class="rs">RSschool
+							<li>JS/FE 2021Q4 (in proccess...)</li>
+						</ul>
+						<ul class="skill" id="skills">Skills
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>GitHub</li>
+						<li>Exel</li>
+						</ul>
+						<ul class="skill" id="skills">Languages
+							<li>Russia - native speaker</li>
+							<li>English - B1</li>
+							<li>Hebrew - A</li>
+							</ul>
+					</div>
+					<div class="about__right">
+						<div class="me">
+							<h3 class="me__about" id="about">About me</h3>
+							<span class="me__about-text">I am 31 years old, I work as an engineer in Izaril. At the moment, I realized for myself that it was time to change the direction of my work, so I decided to make radical changes. The choice fell on programming, that's why I'm here. My goal is to gain knowledge in the field of interface development.</span>
+							<ul class="stre">MY STRENGTHS:
+								<li>Quick learner</li>
+								<li>Full immersion in the essence of the problems</li>
+								<li>Diligence</li>
+								<li>Team playing</li>
+							</ul>
+							<div class="code" id="code">Code
+								<br/><br/>
+								<code> function bmi(weight, height) {
+									const bmi = weight / (height * height);    
+									return bmi &lt;= 18.5 ? 'Underweight' : bmi &lt;= 25 ?    
+									'Normal' : bmi &lt;= 30 ? 'Overweight' : 'Obese';    
+							  }   
+							  }</code>
+							</div>
+							<div class="projects">
+								<span id="projects">PROJECTS</span>
+								 <p><a href="https://github.com/Madnetbar">Comming soon</a><---</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</about>
+			<footer class="footer">
+				<div class="container">
+					 	<div class="footer__container">
+							<div class="contacts">
+									<h3 class="side__header" id="contacts">Contacts</h3>
+									<ul class="contacts__list">
+										<li class="contacts__item"><a href="tel:+7972529621841" class="side__link" target="_blank">Phone</a></li>
+										<li class="contacts__item"><a href="yakhtenfeld@gmail.com" class="side__link" target="_blank">E-mail</a></li>
+										<li class="contacts__item"><a href="https://t.me/ class="side__link" target="_blank">Telegram</a></li>
+									</ul>
+							</div>
+								<div class="footer__content">
+									<div class="footer__item"><a href="https://github.com/Madnetbar" target="_blank"><img src="/img/github.svg" alt="github" class="footer__image"></a></div>
+									<div class="footer__item"><a href="https://rs.school/js/" target="_blank"><img src="/img/rs_school_js.svg" alt="rs_school" class="footer__image"></a></div>
+									<div class="footer__date"> Created <br> in 2022</div>
+						  </div>
+					 </div>
+				</div>
+		  </footer>
+	</div>
 </html>
